@@ -17,6 +17,6 @@ int main(){
               c++;
          }
     }
-    j==1 ? printf("-1\n") : printf("%d\n", n-c);
+    c==0 ? printf("-1\n") : printf("%d\n", n-c);
     return 0;
 }
