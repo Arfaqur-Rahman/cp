@@ -1,6 +1,6 @@
 
 #include<bits/stdc++.h>
-int a[20], b[20];
+
 using namespace std;
 int main(){
     int a, b, c;
