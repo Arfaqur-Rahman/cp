@@ -8,6 +8,5 @@ main(void){
         cin>>a[i];
         s+=a[i];
     }
-    sort(a,a+n);
     cout<<( s>=h?"Yes":"No" );
 }
