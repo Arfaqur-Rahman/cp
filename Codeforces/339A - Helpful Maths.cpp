@@ -3,7 +3,6 @@ using namespace std;
 
 int main(){
     string s,s1; cin>>s;
-    int u=0, l=0;
     for(int i=0;i<s.size();i+=2){
         s1+=s[i];
     }
