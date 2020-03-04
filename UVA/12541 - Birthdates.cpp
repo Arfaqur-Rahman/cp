@@ -13,7 +13,7 @@ int main(){
         y=d+m*30+y*365;
         if(y>maxi){
             maxi=y;
-            young=s; //who who were born last, would have the highest value of y(as y=d+m*30+y*365 )
+            young=s; //he who was born last, would have the highest value of y (as y=d+m*30+y*365 )
         }
         if(y<mini){
             mini=y;
