@@ -11,3 +11,4 @@ int main(){
         cout<<k*3;
     }
 }
+// https://vjudge.net/contest/361974
