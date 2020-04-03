@@ -19,7 +19,7 @@ bool cmp( pair<int, int> a, pair<int, int> b){
     return a.first<b.first;
 }
 
-
+// faced TLE for not using printf, scanf
 int main(){
     int t;
     sf(t);
