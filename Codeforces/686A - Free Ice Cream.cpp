@@ -3,7 +3,7 @@
 
 int main(){
     int n;
-    long long m;
+    long long m; //got WA for not using long long
     cin>>n>>m;
     int dis=0;
     while(n--){
