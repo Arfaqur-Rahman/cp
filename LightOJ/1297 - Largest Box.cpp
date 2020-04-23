@@ -1,12 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int binToDec(string s1){
-    int sum=0;
-    reverse(s1.begin(), s1.end());
-    for(int i=0; s1[i]; i++) if(s1[i]=='1') sum+= pow(2, i);
-    return sum;
-}
 
 int main(){
    int tc; cin>>tc;
