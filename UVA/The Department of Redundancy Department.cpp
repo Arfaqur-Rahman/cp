@@ -21,3 +21,30 @@ int main(){
     return 0;
 }
 
+/*
+//using unordered_map, vector and unordered_set
+#include<bits/stdc++.h>
+using namespace std;
+
+int a[100000000]={0};
+
+int main(void){
+    int x;
+
+    unordered_set<int> st;
+    unordered_map<int, int> um;
+    vector<int> v;
+    for(int i=0; i<10; i++){
+    //while(cin>>x){
+        cin>>x;
+        if(st.count(x)!=1){
+            st.insert(x);
+            v.push_back(x);
+        }
+
+        um[x]++;
+    }
+    for(int n: v) cout<<n<<" "<<um[n]<<endl;
+}
+
+*/
