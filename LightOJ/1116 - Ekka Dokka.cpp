@@ -5,7 +5,7 @@ int main(){
     cin.tie(0);
     ios::sync_with_stdio(false);
     int t;
-    cin>>t;// 001=4  101=5
+    cin>>t;
     for(int i=1; i<=t; i++){
         long long n;
         cin>>n;
