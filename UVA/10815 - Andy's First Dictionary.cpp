@@ -20,7 +20,7 @@ int main(){
                 }
             }
         }
-        if(s2!="") st.insert(s2);
+        if(s2!="") st.insert(s2); // unless if(s2!="") is used, presentation error is encountered
     }
 
     for(string x: st) cout<<x<<endl;
