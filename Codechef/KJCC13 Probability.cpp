@@ -5,7 +5,7 @@ int main(){
     int c=0;
     for(int i=0; i<=1000000; i++){
             int temp=i;
-            if(temp==0) c++;
+            if(temp==0) c++; // if this condition is not added, error is encountered
             else {
                 while(temp){
                     if(temp%10==0){
