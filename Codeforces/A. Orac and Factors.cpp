@@ -15,9 +15,9 @@ int main(){
                 }
             }
             k--;
-            while(k--){
-                n+=2;
-            }
+            while(k--){ // After reading the editorial feeling...
+                n+=2;   // just n+= 2*k; 
+            }           // would suffice.
         }else{
             while(k--){
                 n+=2;
