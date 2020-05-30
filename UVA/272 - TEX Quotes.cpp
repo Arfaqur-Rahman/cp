@@ -19,7 +19,7 @@ main(){
             }
             else cout<<s[i];
         }
-        cout<<endl;
+        cout<<endl; //For not using this line, I got tons of WAs
     }
    
 }
