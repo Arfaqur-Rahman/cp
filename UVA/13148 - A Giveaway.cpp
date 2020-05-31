@@ -12,3 +12,21 @@ signed main(){
         else cout<<"Ordinary"<<endl;
     }
 }
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+#define int long long
+
+signed main(){
+    int n;
+    while(cin>>n && n){
+        int temp3=cbrtl(n);
+        
+        int temp2=sqrtl(n); 
+      
+        if( temp3*temp3*temp3==n && temp2*temp2==n ) cout<<"Special"<<endl;
+        else cout<<"Ordinary"<<endl;
+    }
+}
+*/
