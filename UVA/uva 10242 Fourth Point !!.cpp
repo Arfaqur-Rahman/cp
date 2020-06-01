@@ -1,21 +1,33 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
+#define int long long
 
-int main(){
+signed main(){
+    double  a1, a2,
+            b1, b2,
+            c1, c2,
+            d1, d2,
+            x, y;
+    while(cin>>a1>>a2>>b1>>b2>>c1>>c2>>d1>>d2){
+        //midpoint of diagonal same for both diagonals...so ((d1+b1)/2, (d2+b2)/2) = ( (a1+c1)/2, (a2+c2)/2);
+        //(a1, a2) can never be same as (b1, b2) as they were part of the same side...same go for (c1, c2) and (d1, d2)
+        if(b1==c1 && b2==c2){
+            x=d1+a1-b1;
+            y=d2+a2-b2;
 
-    double x1, y1, x2, y2, x3, y3, x4, y4;
-    while( scanf("%lf %lf %lf %lf %lf %lf %lf %lf", &x1, &y1, &x2, &y2, &x3, &y3, &x4, &y4)==8 ){
-    if( x2==x3 && y2==y3 )
-    printf("%.3lf %.3lf\n", x1+x4-x3, y1+y4-y3);
+        }else if(d1==b1 && d2==b2){
+            x=a1+c1-b1;
+            y=a2+c2-b2;
 
-     else if( x1==x3 && y1==y3 )
-    printf("%.3lf %.3lf\n", x2+x4-x3, y2+y4-y3);
+        }else if(c1==a1 && c2==a2){
+            x=b1+d1-c1;
+            y=b2+d2-c2;
 
+        }else{// when d1==a1 and d2==a2
+            x=b1+c1-d1;
+            y=b2+c2-d2;
 
-     else if( x2==x4 && y2==y4 )
-    printf("%.3lf %.3lf\n", x1+x3-x4, y1+y3-y4);
-
-    else
-    printf("%.3lf %.3lf\n", x2+x3-x4, y2+y3-y4);
+        }
+         cout<<fixed<<setprecision(3)<<x<<" "<<y<<endl;
     }
-    return 0;
 }
