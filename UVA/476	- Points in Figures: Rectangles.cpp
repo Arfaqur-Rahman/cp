@@ -21,7 +21,8 @@ signed main(){
         n++;
         bool b=false;
         for(int i=0; i<v.size(); i++){
-            if(x> v[i].first.first && x< v[i].second.first && y<v[i].first.second && y>v[i].second.second){
+            if(x> v[i].first.first && x< v[i].second.first && y<v[i].first.second && y>v[i].second.second){ //Points coinciding with a figure border are not considered inside. This is why no = sign was used inside the if condition.
+
                 b=true;
                 cout<<"Point "<<n<<" is contained in figure "<<i+1<<endl;
             }
