@@ -2,6 +2,8 @@
 using namespace std;
 #define int long long
 #define FAST ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
+// smarter solution: https://codeforces.com/contest/467/submission/7828865
+
 
 int N;
 
