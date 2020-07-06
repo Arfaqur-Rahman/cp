@@ -22,7 +22,7 @@ signed main(){
     cin.ignore();
     while(t--){
         string s;
-        getline(cin, s);
+        getline(cin, s); // WA is encountered if getline is not used
         cout<< ( stackCheck(s) ? "Yes" : "No" ) <<endl;
     }
 }
