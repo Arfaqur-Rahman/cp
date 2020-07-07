@@ -3,7 +3,7 @@ using namespace std;
 
 int a[10000+1];
 
-int func(){
+void func(){
     int f=1;
     for(int i=1; i<=10000; i++){
         f*=i;
@@ -16,5 +16,7 @@ int func(){
 int main(){
     func();
     int n;
-    for(int i=1; i<10; i++) cout<<a[i]<<'\n';
+    while(cin>>n){
+        printf("%5d -> %d\n", n, a[n]);
+    }
 }
