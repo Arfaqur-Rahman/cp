@@ -1,3 +1,5 @@
+// https://www.urionlinejudge.com.br/judge/en/problems/view/2852
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -12,7 +14,7 @@ int main(){
         getline(cin, s);
         stringstream ss(s);
         string x;
-        int i=0; //while(cin>>x){
+        int i=0; 
         while(ss>>x){
             if(x[0]=='a' || x[0]=='e' || x[0]=='i' || x[0]=='o' || x[0]=='u') cout<<x;
             else{
