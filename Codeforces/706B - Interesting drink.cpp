@@ -20,4 +20,35 @@ int main(){
    }
 }
 
+/* using frequency array (prefix sum)
+#include<bits/stdc++.h>
+using namespace std;
+int freq[100000+1];
+int main()
+{
+    int n;
+    cin>>n;
+    int a[n];
+    for(int i=0; i<n; i++)
+    {
+        cin>>a[i];
+        freq[ a[i] ]++;
+    }
+
+    for(int i=1; i<=100000; i++)
+    {
+        freq[i]+= freq[i-1];
+    }
+
+    int q;
+    cin>>q;
+    while(q--)
+    {
+        int p;
+        cin>>p;
+        p= min(p, 100000);
+        cout<<freq[p]<<endl;
+    }
+}
+*/
 
