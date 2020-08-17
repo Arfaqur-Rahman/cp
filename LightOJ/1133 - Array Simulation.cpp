@@ -1,5 +1,60 @@
 #include<bits/stdc++.h>
 using namespace std;
+#define ll long long
+#define endl '\n'
+
+int main() {
+    //ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0); ->This line causes a runtime error
+
+    int t;
+    cin>>t;
+    for(int i=1; i<=t; i++){
+        int n, m;
+        cin>>n>>m;
+
+        int a[n];
+        for(int j=0; j<n; j++) cin>>a[j];
+
+        while(m--){
+            char c;
+            cin>>c;
+            if(c=='P'){
+                int x, y;
+                cin>>x>>y;
+                swap(a[x], a[y]);
+            }else if(c=='R'){
+                reverse(a, a+n);
+            }else if(c=='D'){
+                int x;
+                cin>>x;
+                for(int k=0; k<n; k++) a[k]/=x;
+            }else if(c=='M'){
+                int x;
+                cin>>x;
+                for(int k=0; k<n; k++) a[k]*=x;
+            }else if(c=='S'){
+                int x;
+                cin>>x;
+                for(int k=0; k<n; k++) a[k]+=x;
+            }
+        }
+
+        cout<<"Case "<<i<<":"<<endl;
+        for(int k=0; k<n; k++){
+            if(k!=0) cout<<" ";
+            cout<<a[k];
+        }
+        cout<<endl;
+    }
+}
+
+
+
+
+/*
+
+#include<bits/stdc++.h>
+using namespace std;
 
 int main(){
     cin.tie(0);
@@ -41,5 +96,5 @@ int main(){
         cout<<endl;
     }
 }
-
+*/
 
