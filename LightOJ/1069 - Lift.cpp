@@ -9,6 +9,6 @@ int main(){
     int n, m;
     cin>>n>>m;
     // to open 3, to close 3, to open 3, to enter 5, to exit 5 ... 3+3+3+5+5=19
-    cout<<"Case "<<i<<": "<<abs(n-m)*4+n*4+19<<endl;
+    cout<<"Case "<<i<<": "<<  abs(b-a)*4 + 3+ 3+ 5+ 5 + 3 + (a)*4  <<endl;
     }
 }
