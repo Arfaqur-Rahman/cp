@@ -13,7 +13,7 @@ int Ones(int n){
 }
 
 int main() {
-    //ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0); //  -> This causes runtime error. Don't know why!
+    //ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0); //  -> Using this line results in a runtime error. Don't know why!
 
     int t;
     cin>>t;
@@ -23,5 +23,7 @@ int main() {
         cin>>n;
 
         cout<<"Case "<<i<<": "<<( Ones(n) & 1 ? "odd" : "even")<<endl;
+        // cout<<"Case "<<i<<": "<<( __builtin_parity(n) ? "odd" : "even")<<endl; // also does the job
+        
     }
 }
