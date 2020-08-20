@@ -2,6 +2,9 @@
 using namespace std;
 #define ll long long
 int a[32];
+
+// idea : https://www.quora.com/How-do-I-solve-Secret-origins-Problem-1042-on-LightOJ-avoiding-TLE
+
 int main(){
     int t;
     cin>>t;
