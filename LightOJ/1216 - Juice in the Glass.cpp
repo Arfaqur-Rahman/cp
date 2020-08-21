@@ -10,8 +10,9 @@ int main(){
     for(int tc=1; tc<=t; tc++){
         int r1, r2, h, p;
         cin>>r1>>r2>>h>>p;
-
-        double R= r2+(r1-r2)* double(p)/h;
+        
+        double diff= (double)p/h;
+        double R= r2+(r1-r2)* diff;
         cout<<fixed<<setprecision(9)<<"Case "<<tc<<": "<< 1/3.0*acos(-1)*p*( r2*r2 + r2*R + R*R ) <<endl;
     }
     return 0;
