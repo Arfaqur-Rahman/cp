@@ -2,6 +2,9 @@
 using namespace std;
 #define ll long long
 
+// https://f0rth3r3c0rd.wordpress.com/2011/09/10/uva-11609-teams/
+// https://tausiq.wordpress.com/2011/03/29/uva-11609-teams/
+
 ll Mod = (int) 1e9+7;
 
 ll bigMod(ll base, ll exp, ll mod) { // log(exp)
