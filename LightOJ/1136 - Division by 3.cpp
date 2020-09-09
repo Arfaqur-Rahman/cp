@@ -8,6 +8,9 @@ using namespace std;
 // if a or b yields a remainder of 1, we will do the exact same thing as mentioned in the previous sentence.
 // if a or b yields a remainder of 2, we will add 1 to the number of triads (because the next triad's 1 needs to be added in this case)
 // a or b will never yield a remainder of 3, as we are dividing them by 3!!! hahaha!
+
+// http://nayeemmollickjoy.blogspot.com/2017/07/1136-division-by-3-lightoj-problem-full.html
+
 int main(){
     int t;
     cin>>t;
