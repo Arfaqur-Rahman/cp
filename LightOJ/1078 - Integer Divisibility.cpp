@@ -22,7 +22,7 @@ int main() {
         printf("Case %d: ", t);
 
         for (int i = 1; ; i++) {
-            s = (s * 10) % n + d;
+            s = (s * 10) % n + d; // long long can not contain 10^6 digits!!!
             if (s % n == 0) {printf("%d\n", i); break;}
         }
 
