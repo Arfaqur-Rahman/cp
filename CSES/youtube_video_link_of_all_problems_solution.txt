@@ -1,1 +1,5 @@
 https://www.youtube.com/watch?v=dZ_6MS14Mg4
+
+for dp: https://codeforces.com/blog/entry/80064
+
+dp blog: https://codeforces.com/blog/entry/69094
