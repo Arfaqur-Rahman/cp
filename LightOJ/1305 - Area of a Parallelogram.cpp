@@ -2,6 +2,8 @@
 using namespace std;
 #define ll long long 
 
+// http://light-online-judge.blogspot.com/2013/10/1305-area-of-parallelogram.html
+
 int main(){
     int tc;
     cin>>tc;
