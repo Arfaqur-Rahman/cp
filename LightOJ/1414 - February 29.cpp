@@ -3,6 +3,7 @@ using namespace std;
 
 
 // https://www.programmersought.com/article/5677950590/
+// https://www.shawonruet.com/2017/02/lightoj-1414-february-29.html
 
 int main(){
     int tc;
