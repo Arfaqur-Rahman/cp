@@ -2,6 +2,7 @@
 using namespace std;
 #define ll long long
 
+// http://mahimpantho.blogspot.com/2017/08/lightoj-1088-points-in-segments.html
 
 int main(){
     ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
