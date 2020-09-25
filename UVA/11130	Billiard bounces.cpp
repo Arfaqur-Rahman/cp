@@ -2,6 +2,7 @@
 using namespace std;
 #define ll long long
 
+// https://onlycodes.tumblr.com/post/56218925524/uva-11130-billiard-bounces
 
 int main(){
     ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
