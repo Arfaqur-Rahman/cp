@@ -23,3 +23,27 @@ signed main(){
         }
     }
 }
+
+/*
+
+
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define pi acos(-1)
+int main(){
+    int t, cs=0;
+    cin>>t;
+    while(t--){
+        int d, m, y1, y2;
+        cin>>d>>m>>y1>>y2;
+        cout<<"Case "<<++cs<<": ";
+        if(d==29 && m==2){
+            int c2= y2/400 + y2/4- y2/100;
+            int c1=y1/400 + y1/4 - y1/100;
+            cout<<c2-c1<<endl;
+        }else cout<<y2-y1<<endl;
+    }
+}
+
+*/
