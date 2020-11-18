@@ -18,8 +18,12 @@ int main(){
         for(int j=0; j<n; j++){
             int c=0, s=0;
             for(int i=j; i<n; i++){
-            if(c<p && s+a[i]<=q) s+=a[i], c++, mx=max(mx, c);
-            else break;
+                if(c<p && s+a[i]<=q) {
+                    s+=a[i]; 
+                    c++; 
+                    mx=max(mx, c);
+                }
+                else break;
             
             }
         }
