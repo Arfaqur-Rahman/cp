@@ -10,7 +10,6 @@ using namespace std;
 
 #define log(args...){ string _s = #args; replace(_s.begin(), _s.end(), ',', ' '); stringstream _ss(_s); istream_iterator<string> _it(_ss); err(_it, args); cout<<endl; }
 
-
 void err(istream_iterator<string> it) {}
 template<typename T, typename... Args>
 void err(istream_iterator<string> it, T a, Args... args) {
@@ -18,6 +17,7 @@ void err(istream_iterator<string> it, T a, Args... args) {
 	err(++it, args...);
 }
 
+// https://www.youtube.com/watch?v=G6Et8daDTHU
 // https://japlslounge.com/posts/cses/dice_combinations/1.htm
 
 int f(int n, vi &dp){
