@@ -1,5 +1,7 @@
 class Solution { 
 public:
+    // shorter code is discussed in discuss section
+    // https://leetcode.com/submissions/detail/790515158/
     string addBinary(string a, string b) {
         string ans;
         int carry=0;
