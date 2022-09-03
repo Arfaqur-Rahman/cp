@@ -17,7 +17,7 @@ int32_t main() {
         int C, R; cin>>C>>R;
         int eaten = C-R;
         if(C==R){cout<<"Case #"<<++cs<<": 0"<<endl; continue;}
-        set<int> divisors;
+        set<int> divisors; //sorting a vector works just as fine
         for(int Q=1; Q*Q<=eaten ;Q++){
             if(eaten%Q==0) {
                 if(Q>R) divisors.insert(Q);
