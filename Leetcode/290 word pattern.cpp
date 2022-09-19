@@ -1,4 +1,4 @@
-//nooby approach I guess
+//nooby approach I guess (Not really!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)
 class Solution {
 public:
     bool wordPattern(string pattern, string s) {
