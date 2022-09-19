@@ -1,3 +1,4 @@
+// little shorter: https://leetcode.com/problems/find-duplicate-file-in-system/discuss/104123/C%2B%2B-clean-solution-answers-to-follow-up
 class Solution {
 public:
     vector<vector<string>> findDuplicate(vector<string>& paths) {
